@@ -6,12 +6,11 @@
 /*   By: jbidaux <jeremie.bidaux@gmail.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 17:02:23 by jbidaux           #+#    #+#             */
-/*   Updated: 2023/10/11 12:17:20 by jbidaux          ###   ########.fr       */
+/*   Updated: 2023/11/14 14:52:22 by jbidaux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include "libft.h"
 
 int	ft_atoi(const char *str)
 {
