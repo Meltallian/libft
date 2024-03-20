@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jbidaux <jeremie.bidaux@gmail.com>         +#+  +:+       +#+        */
+/*   By: jbidaux <jbidaux@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 09:59:17 by jbidaux           #+#    #+#             */
-/*   Updated: 2023/11/14 15:05:44 by jbidaux          ###   ########.fr       */
+/*   Updated: 2024/03/20 16:48:48 by jbidaux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,5 +91,7 @@ t_ull		ft_format(va_list va, char *format, t_ull *i);
 t_ull		ft_putchar(int c);
 int			ft_printf(const char *str, ...);
 char		*get_next_line(int fd);
+size_t		word_count(const char *s, const char c);
+char		**ft_split_p(const char *s, const char c);
 
 #endif // LIBFT_H

@@ -12,7 +12,7 @@ SRC = \
 	ft_putendl_fd.c ft_putnbr_fd.c ft_usitoa.c conv1.c conv2.c ft_printf.c \
 	ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
 	ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c \
-	ft_lstmap.c get_next_line_bonus.c
+	ft_lstmap.c get_next_line_bonus.c split_p.c split_utils.c
 
 OBJ = $(SRC:.c=.o)
 INCLUDES_DIR = -I./includes
